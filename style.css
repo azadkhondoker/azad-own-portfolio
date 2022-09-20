@@ -49,7 +49,13 @@ span{
 /* common css end */
 
 /* header-css-started */
-
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
 .navber {
     display: flex;
     justify-content: space-between;
@@ -317,7 +323,7 @@ span{
 .about-info .btn{
 padding: 5px;
 color: black;
-font-size: 26px;
+font-size: 30px;
 }
 .about-info .btn:hover{
 	color: white;
@@ -326,3 +332,69 @@ font-size: 26px;
 	padding-bottom:100px;
 }
 /* about-section css end */
+
+/* contact css start */
+.contact-head h2{
+	font-size: 60px;
+	letter-spacing: 7px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.contact-item .icon {
+	height: 100px;
+	width: 100px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+	border-radius: 5px;
+	padding: 30px 0px;
+
+}
+.contact{
+	padding:50px 0px 150px;
+}
+.contact-item p{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+/* contact css end */
+
+/* started footer section css */
+ .brand{
+	text-align: center;
+ }
+ footer h2{
+	text-align: center;
+ }
+ .social-icon .social-item img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.social-icon{
+	display: flex;
+}
+footer{
+	background-color:rgba(0, 0, 0, 0.8);
+	padding-top: 50px;
+	color: white;
+}
+footer p{
+	color: white;
+	text-align: center;
+}
+.social-icon {
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+/* end footer section css */
