@@ -28,7 +28,25 @@ ul,ol,li{
 span{
 	color: crimson;
 }
+.btn {
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.btn:hover {
+	color: white;
+	background-color: crimson;
+}
 
+
+/* common css end */
 
 /* header-css-started */
 
@@ -267,4 +285,44 @@ span{
 	padding-left: 0;
 	padding-right: 0;
 }
+.project{
+	padding-bottom: 80px;
+}
 /* end project css */
+
+/* about-section css started */
+.about-img img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.about-info h2{
+	font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.about-info h3{
+	font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.about-info p{
+	font-size: 17px;
+    line-height: 30px;
+}
+.about-info{
+	padding-left: 10px;
+}
+.about-info .btn{
+padding: 5px;
+color: black;
+font-size: 26px;
+}
+.about-info .btn:hover{
+	color: white;
+}
+.about{
+	padding-bottom:100px;
+}
+/* about-section css end */
