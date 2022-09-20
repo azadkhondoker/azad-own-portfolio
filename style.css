@@ -60,7 +60,7 @@ span{
     display: flex;
     justify-content: space-between;
 	padding: 20px;
-	background-color:rgba(0, 0, 0, 0.8);
+	background-color:rgba(0, 0, 0, 0.2);
 }
 .navlist ul li {
     font-size: 24px;
@@ -303,6 +303,20 @@ span{
 /* end project css */
 
 /* about-section css started */
+
+.about-img{
+ position: relative;
+}
+.borderd {
+    position: absolute;
+    border: 10px solid crimson;
+    height: 426px;
+    width: 400px;
+    top: 14px;
+    right: 6px;
+    z-index: -5;
+}
+
 .about-img img {
     height: 400px;
     width: 100%;
