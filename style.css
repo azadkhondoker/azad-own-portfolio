@@ -215,7 +215,6 @@ span{
 	transform: rotate(360deg);
 	transition-duration: 6s;
 	transition-timing-function: inherit;
-	
 }
 .service{
 	padding-bottom: 115px;
@@ -263,7 +262,6 @@ span{
 	height: 400px;
 	object-fit: cover;
 	transition: 0.3s ease transform;
-	
 }
 .project .projects-items .project-item .image-site{
 	overflow: hidden;
@@ -282,8 +280,6 @@ span{
 .project .projects-items .project-item:hover .image-site img{
 	transform: scale(1.1);	
 }
-
-
 .info-site .info-content {
     padding-top: 100px;
     padding-left:15px;
@@ -291,7 +287,6 @@ span{
 .info-site{
     padding:10px;
 }
-
 .project .project-item .row>*{
 	padding-left: 0;
 	padding-right: 0;
@@ -309,16 +304,16 @@ span{
 .borderd {
     position: absolute;
     border: 10px solid crimson;
-    height: 426px;
-    width: 400px;
+    height: 410px;
+    width: 380px;
     top: 14px;
     right: 6px;
     z-index: -5;
 }
-
 .about-img img {
     height: 400px;
     width: 100%;
+	border: 10px solid white;
     object-fit: cover;
 }
 .about-info h2{
@@ -361,7 +356,6 @@ font-size: 30px;
 	text-align: center;
 	padding-bottom: 15px;
 }
-
 .contact-item .icon {
 	height: 100px;
 	width: 100px;
@@ -375,7 +369,6 @@ font-size: 30px;
 	border-radius: 5px;
 	padding: 30px 0px;
 	margin-bottom: 20px;
-
 }
 .contact{
 	padding:50px 0px 150px;
@@ -385,7 +378,6 @@ font-size: 30px;
 	line-height: 20px;
 	font-weight: 500;
 }
-
 /* contact css end */
 
 /* started footer section css */
@@ -416,5 +408,4 @@ footer p{
     justify-content: center;
     padding: 20px 0px;
 }
-
 /* end footer section css */
